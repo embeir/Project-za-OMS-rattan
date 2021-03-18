@@ -1,0 +1,333 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* scroll-snap-type: y mandatory; */
+}
+
+html {
+    animation: pocetak 3s ease-in-out;
+}
+
+h1 {
+    position: absolute;
+    color: rgb(233, 215, 215);
+    text-align: center;
+    z-index: 998;
+}
+
+.box {
+    position: absolute;
+    font-size: 70px;
+    margin: 0 auto;
+    left: 10%;
+    right: 30%;
+    top: 40%;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    letter-spacing: 5px;
+    z-index: 997;
+    float: left;
+    clear: none;
+    animation-duration: 2s;
+    animation-name: naslov;
+    animation-timing-function: ease-out;
+}
+
+.boxy {
+    position: absolute;
+    font-size: 19px;
+    max-width: 52%;
+    margin: 0 auto;
+    left: 64%;
+    right: 4%;
+    top: 76%;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 59px;
+    z-index: 997;
+    float: left;
+    clear: none;
+    animation-duration: 2s;
+    animation-name: naslovy;
+    animation-timing-function: ease-out;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.prvi-opis {
+    position: relative;
+    display: inline-block;
+}
+
+.prvi-opis-1 {
+    position: relative;
+    display: flex;
+}
+
+.opis-1 {
+    color: #fffca6;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    position: absolute;
+    margin: 0 auto;
+    left: 15%;
+    right: 50%;
+    top: 78%;
+    text-align: left;
+    width: 43%;
+    float: left;
+    clear: none;
+    animation: prejako 4s ease-in-out;
+}
+
+.opis-2 {
+    color: #5f5d26;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-top: 1500px;
+    width: 841px;
+    left: -848px;
+    z-index: 995;
+    position: absolute;
+    animation: prejako-2 4s ease-in-out;
+}
+
+#vjezba {
+    color: #000;
+    position: absolute;
+    transform: translateY(55%);
+    left: 7%;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+#vjezbica {
+    position: relative;
+    transform: translateY(-107%);
+    width: 78%;
+    margin-left: 37%;
+}
+
+#vjezbica-1 {
+    margin-top: -1%;
+}
+
+#vjezbica-2 {
+    margin-top: -52%;
+}
+
+#vjezbica-3 {
+    position: absolute;
+    margin-left: -102%;
+    width: 57%;
+    margin-top: -40%;
+}
+
+.opis-3 {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 500;
+    left: 53%;
+    transform: translateY(224%);
+}
+
+.opis-4 {
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 7%;
+    font-size: 19px;
+}
+
+.predmet {
+    position: absolute;
+    margin: 0 auto;
+    transform: translateX(-40px);
+    left: 0;
+    right: 45%;
+    top: 48%;
+    width: 75%;
+    animation: brzina 2s ease-in-out;
+    animation-delay: 1s;
+}
+
+.predmet-1 {
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    clear: none;
+    scroll-snap-align: center;
+}
+
+#slika {
+    filter: brightness(50%);
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    float: left;
+    clear: none;
+    bottom: -448%;
+    width: 100%;
+    height: 364px;
+    background-color: #474853;
+}
+
+.stolice {
+    position: absolute;
+    max-width: 12%;
+    left: 50%;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    clear: none;
+    animation: stolice-kretnja 2s ease-in-out;
+    opacity: 0;
+    z-index: 9999;
+}
+
+.ikonica {
+    position: absolute;
+    max-width: 5%;
+    flex-direction: column;
+    left: 7%;
+    top: 521.5%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    clear: none;
+    opacity: 1;
+    z-index: 9999;
+}
+
+.linkic {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 525%;
+    left: 12%;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 88px;
+}
+
+button {
+    line-height: 70px;
+    height: 16px;
+    font: inherit;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    letter-spacing: 2px;
+    line-height: 70px;
+    height: 25px;
+    font: inherit;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    color: #23a18c;
+    width: 100%;
+    font-weight: 300;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+@keyframes naslov {
+    from {
+        transform: translateX(-550px);
+    }
+    to {
+        transform: translateX(-30px);
+    }
+}
+
+@keyframes naslovy {
+    from {
+        transform: translateX(550px);
+    }
+    to {
+        transform: translateX(30px);
+    }
+}
+
+@keyframes brzina {
+    from {
+        transform: translateX(-550px);
+    }
+    to {
+        transform: translateX(-40px);
+    }
+}
+
+@keyframes prejako {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        left: 15%;
+        right: 50%;
+        top: 78%;
+    }
+}
+
+@keyframes prejako-2 {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to {
+        padding-top: 1500px;
+        width: 841px;
+        left: -848px;
+    }
+}
+
+@keyframes pocetak {
+    from {
+        filter: brightness(0%);
+    }
+    to {
+        filter: brightness(100%);
+    }
+}
+
+@keyframes stolice-kretnja {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
